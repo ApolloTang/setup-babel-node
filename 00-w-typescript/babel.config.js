@@ -9,7 +9,8 @@ module.exports = (api) => {
         '@babel/env',
         {
           'modules': 'commonjs',
-          targets: { "node": "current" }
+          targets: { "node": "current" },
+          'useBuiltIns': 'usage'
         }
       ],
       "@babel/preset-typescript"
