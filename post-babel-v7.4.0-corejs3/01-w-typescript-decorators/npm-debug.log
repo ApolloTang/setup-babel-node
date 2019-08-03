@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/apollotang/.nvm/versions/node/v5.4.0/bin/node',
+1 verbose cli   '/Users/apollotang/.nvm/versions/node/v5.4.0/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'dev',
+1 verbose cli   'src/foo.ts' ]
+2 info using npm@3.3.12
+3 info using node@v5.4.0
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle node-ts-lab@1.0.0~predev: node-ts-lab@1.0.0
+6 silly lifecycle node-ts-lab@1.0.0~predev: no script for predev, continuing
+7 info lifecycle node-ts-lab@1.0.0~dev: node-ts-lab@1.0.0
+8 verbose lifecycle node-ts-lab@1.0.0~dev: unsafe-perm in lifecycle true
+9 verbose lifecycle node-ts-lab@1.0.0~dev: PATH: /Users/apollotang/.nvm/versions/node/v5.4.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/apollotang/3/g-subj/g-typescript/eh-03-advanced-static-types-in-typescript/wf-node/node_modules/.bin:/Users/apollotang/.nvm/versions/node/v5.4.0/bin:/Users/apollotang/google-cloud-sdk/bin:/Library/Application Support/GoodSync:/Users/apollotang/Library/Application Support/GoodSync:/usr/local/opt/sqlite/bin:/Users/apollotang/.yarn/bin:/usr/local/Cellar/coreutils/8.30/bin:/Users/apollotang/Applications/kdiff3.app/Contents/MacOS:/Users/apollotang/1/1-sy/scripts/bin:/Users/apollotang/bin:/Users/apollotang/script/bin:/Users/apollotang/script/bin2:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/usr/local/share/dotnet:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Applications/Postgres.app/Contents/Versions/latest/bin:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Applications/MacVim.app/Contents/bin:/Users/apollotang/opt/local/scala-2.11.2/bin:/usr/local/Cellar/neovim-dot-app/HEAD/bin/gnvim:/Users/apollotang/opt/devtools/autotools-bin/bin:/Users/apollotang/.rvm/bin:/Users/apollotang/Library/Android/sdk/emulator:/Users/apollotang/Library/Android/sdk/tools:/Users/apollotang/Library/Android/sdk/platform-tools:/opt/local/bin:/opt/local/sbin
+10 verbose lifecycle node-ts-lab@1.0.0~dev: CWD: /Users/apollotang/3/g-subj/g-typescript/eh-03-advanced-static-types-in-typescript/wf-node
+11 silly lifecycle node-ts-lab@1.0.0~dev: Args: [ '-c', 'babel-node --extensions \'.ts\'  "src/foo.ts"' ]
+12 silly lifecycle node-ts-lab@1.0.0~dev: Returned: code: 1  signal: null
+13 info lifecycle node-ts-lab@1.0.0~dev: Failed to exec dev script
+14 verbose stack Error: node-ts-lab@1.0.0 dev: `babel-node --extensions '.ts'  "src/foo.ts"`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/Users/apollotang/.nvm/versions/node/v5.4.0/lib/node_modules/npm/lib/utils/lifecycle.js:232:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at ChildProcess.<anonymous> (/Users/apollotang/.nvm/versions/node/v5.4.0/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:821:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid node-ts-lab@1.0.0
+16 verbose cwd /Users/apollotang/3/g-subj/g-typescript/eh-03-advanced-static-types-in-typescript/wf-node
+17 error Darwin 18.6.0
+18 error argv "/Users/apollotang/.nvm/versions/node/v5.4.0/bin/node" "/Users/apollotang/.nvm/versions/node/v5.4.0/bin/npm" "run" "dev" "src/foo.ts"
+19 error node v5.4.0
+20 error npm  v3.3.12
+21 error code ELIFECYCLE
+22 error node-ts-lab@1.0.0 dev: `babel-node --extensions '.ts'  "src/foo.ts"`
+22 error Exit status 1
+23 error Failed at the node-ts-lab@1.0.0 dev script 'babel-node --extensions '.ts'  "src/foo.ts"'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the node-ts-lab package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     babel-node --extensions '.ts'  "src/foo.ts"
+23 error You can get their info via:
+23 error     npm owner ls node-ts-lab
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
